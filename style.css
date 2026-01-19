@@ -1,0 +1,368 @@
+nav {
+    background-color: #412567;
+    display: flex;
+    gap: 314px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+nav button {
+    border-radius: 10000px;
+    padding: 16px, 12px;
+    width: 135px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    color: ghostwhite;
+    background: linear-gradient(to right,
+            #F7E93F 0%,
+            #FB09B4 51%,
+            #9100F8 100%);
+}
+
+.heads {
+    background-image: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+}
+
+
+/* End of nav bar  */
+
+.image{
+    align-items: center;
+    width: 350px;
+    height: auto;
+}
+
+.heads h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: ghostwhite;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.heads p {
+    font-size: 16px;
+    font-weight: 400;
+    color: darkgray;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 102px;
+}
+.btn1 {
+    padding: 12px 20px;
+    border-radius: 10000px;
+    background: linear-gradient(to right,
+            #F7E93F 0%,
+            #FB09B4 51%,
+            #9100F8 100%);
+            text-align: center;
+}
+.btn2{
+    padding: 12px 20px;
+    border-radius:10000px ;
+    background-color: transparent;
+    border: 1px solid #00FF88;
+    color: #00FF88;
+    text-align: center;
+}
+
+
+
+/* End of hard part  */
+
+
+.description {
+    background-color: #1A0B2E;
+}
+
+.desin {
+    margin-bottom: 80px;
+}
+
+.desin h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.desin p {
+    font-size: 16px;
+    font-weight: 400;
+    color: ghostwhite;
+    text-align: center;
+}
+
+hr {
+    margin-top: 80px;
+}
+
+.achieve {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.achieve h1 {
+    color: #00FF88;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.achieve p {
+    font-size: 16px;
+    font-weight: 400;
+    color: ghostwhite;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 120px;
+}
+
+/* End of header  */
+
+
+.grid {
+    margin-top: 0;
+    background-color: #230E3D;
+}
+.grid h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 40px;
+}
+.grid-part {
+    display: grid;
+    grid-template-columns:repeat(400px,3fr) ;
+    grid-template-rows: repeat(261px,3fr);
+}
+.gridcd1{
+    grid-row: 1 / 2;
+    grid-column: 1 / 1;
+}
+.gridcard {
+    border: 2px solid white;
+}
+
+.gridcard h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: ghostwhite;
+}
+
+.gridcard p {
+
+    font-size: 16px;
+    font-weight: 400;
+    color: ghostwhite;
+}
+
+
+/* End of grid section  */
+
+
+.moreinfo {
+    background-color: #1A0B2E;
+}
+
+.moreinfo h2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 120px;
+    margin-bottom: 40px;
+}
+
+.vinland {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+
+}
+
+.vinlandcard {
+    /* border: 2px solid white; */
+    background-color: #250D44;
+    width: 380px;
+    height: 440px;
+    border-radius: 13px;
+}
+.vinlandcard iframe{
+            width: 380px;
+            height: 215px;
+            border-radius: 13px;
+}
+
+.vinlandcard h4 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 12px;
+    margin-top: 24px;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.vinlandcard p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.undervin {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: left;
+    margin-left: 24px;
+
+}
+
+.undervin img {
+    width: 20px;
+    height: 20px;
+}
+
+.undervin p {
+    color: #00FF88;
+    font-size: 16px;
+}
+
+/* End of the vinland saga  */
+
+
+.hostcard {
+    background-color: #351165;
+    border-radius: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    gap: 24px;
+    padding: 48.5px 40px;
+    margin-bottom: 120px;
+}
+
+.host h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hostpara h3 {
+    color: ghostwhite;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.hostpara p {
+    font-size: 16;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.hostpara ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    align-items: center;
+}
+
+.hostpara img {
+    background-color: #533C72;
+    border-radius: 50px;
+    /* border: 1px solid rgba(83, 60, 114, 1); */
+    padding: 10px;
+}
+
+
+/* start of footer section  */
+
+
+footer {
+    background-image: url(assets/footer-bg.png);
+}
+
+footer h1 {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+.h1 span {
+    color: linear-gradient(to right,
+            #F7E93F 0%,
+            #FB09B4 51%,
+            #9100F8 100%);
+}
+
+.footerlist {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.footerlist img {
+    margin-right: 8px;
+}
+
+footer p {
+    color: darkgray;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 120px;
+}
+
+
+/* Now hover effect  */
+
+
+
+
+
+/* Now Animation time  */
+
+
+
+
+
+/* Now responsive time  */
+
+@media screen {
+    
+}
