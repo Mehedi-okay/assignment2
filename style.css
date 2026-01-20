@@ -19,11 +19,10 @@ body{
 nav {
     background-color: #412567;
     display: flex;
-    gap: 314px;
-    justify-content: center;
+    /* gap: 314px; */
+    justify-content: space-between;
     align-items: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em 230px;
 }
 
 nav ul {
@@ -46,10 +45,26 @@ nav button {
             #FB09B4 51%,
             #9100F8 100%);
 }
-
+.ham{
+    display:none ;
+}
 
 @media screen and (max-width: 576px) {
-   
+   nav ul{
+        display: none;
+   }
+   .sub{
+    display: none;
+   }
+   .navlogo{
+            
+   }
+   .ham{
+    display:block;
+   }
+   nav{
+    padding: 1em 20px;
+   }
 }
 
 
@@ -114,6 +129,9 @@ nav button {
  color: #1A0B2E;
  padding: 8px 16px;
  border-radius: 1000px;
+ position: absolute;
+ left: 55%;
+ top: 18%;
  animation: rotate360 2s linear infinite;
 }
 .image{
@@ -387,6 +405,7 @@ hr {
 .undervin p {
     color: #00FF88;
     font-size: 16px;
+    margin: 0;
 }
 
 .vinlandcard:hover{
@@ -394,7 +413,7 @@ hr {
     height: 480px;
     padding: 10px;
     background-color: greenyellow;
-    color: #250D44;
+    
 }
 
 @media screen and (max-width: 576px) {
