@@ -1,3 +1,16 @@
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -133,6 +146,9 @@ nav button {
 
 hr {
     margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: darkolivegreen;
 }
 
 .achieve {
@@ -305,6 +321,7 @@ hr {
     width: 380px;
     height: 440px;
     border-radius: 13px;
+    transition: width 3s, height 3s, padding 3s, background-color 3s, ease-in 1s;
 }
 
 .vinlandcard iframe {
@@ -350,6 +367,13 @@ hr {
 .undervin p {
     color: #00FF88;
     font-size: 16px;
+}
+
+.vinlandcard:hover{
+    width: 420px;
+    height: 480px;
+    padding: 10px;
+    background-color: greenyellow;
 }
 
 @media screen and (max-width: 576px) {
