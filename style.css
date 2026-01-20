@@ -47,29 +47,16 @@ nav button {
             #9100F8 100%);
 }
 
-.heads {
-    background-image: url(assets/hero-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 
 @media screen and (max-width: 576px) {
-    nav {
-        display: none;
-    }
+   
 }
 
 
 /* End of nav bar  */
 
 
-.image {
-    align-items: center;
-    width: 350px;
-    height: auto;
-}
+
 
 .heads h1 {
     font-size: 60px;
@@ -113,9 +100,42 @@ nav button {
     color: #00FF88;
     text-align: center;
 }
+.heads {
+    background-image: url(assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+}
+.newbtn{
+    font-size: 18px;
+    font-weight: 600;
+ background-color: #00FF88;
+ color: #1A0B2E;
+ padding: 8px 16px;
+ border-radius: 1000px;
+ animation: rotate360 2s linear infinite;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.mic{
+    position: absolute;
+    top: 90px;
+}
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 576px) {
 
-
-@media screen and (max-width: 576px) {}
+}
 
 
 /* End of hard part  */
@@ -374,6 +394,7 @@ hr {
     height: 480px;
     padding: 10px;
     background-color: greenyellow;
+    color: #250D44;
 }
 
 @media screen and (max-width: 576px) {
